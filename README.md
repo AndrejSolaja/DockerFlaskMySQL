@@ -1,7 +1,7 @@
 # DockerFlaskMySQL
 Deploying a Python application leveraging Flask, Docker Compose, MySQL.
 
-##Installation
+## Installation
 
 Run following command in directory with docker-compose.yml file
 ```bash
@@ -13,7 +13,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install request
 pip install requests
 ```
 
-##Usage
+## Usage
 
 Run console.py
 ```bash
