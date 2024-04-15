@@ -14,7 +14,14 @@ config = {
         'database': 'library'
     }
 
-db = mysql.connector.connect(**config)
+while True:
+    try:
+        db = mysql.connector.connect(**config)
+        break;
+    except:
+        print("Trying to connect")
+        continue;
+
 cursor = db.cursor(dictionary=True)
 
 
